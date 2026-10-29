@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Titus is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by sequoia-capital) and added to the network as a stub for full-pipeline profiling.
-- https://www.gotitus.com/
+Titus provides a flexible payment orchestration platform enabling businesses to integrate multiple payment methods, manage risk, and streamline checkout experiences. Founded with backing from Sequoia Capital, Titus offers APIs for payments, refunds, subscriptions, and reporting, targeting B2B SaaS and e‑commerce companies. The platform emphasizes developer-friendly documentation, robust security, and scalable infrastructure, supporting global merchants across various industries.
+
+**Areas:** Company · Payments · FinTech · Orchestration · API · B2B
+
+## Titus on APIs.io
+
+Everything profiled for Titus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/titus/](https://apis.io/providers/titus/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Titus API](https://apis.io/apis/titus/titus-api/) — Titus provides payment orchestration APIs.
+- [Titus Authorizations API](https://apis.io/apis/titus/titus-authorizations-api/) — The Authorizations API from Titus — 4 operation(s) for authorizations.
+- [Titus Business Connections API](https://apis.io/apis/titus/titus-businessconnections-api/) — The BusinessConnections API from Titus — 4 operation(s) for businessconnections.
+- [Titus Checkouts API](https://apis.io/apis/titus/titus-checkouts-api/) — The Checkouts API from Titus — 6 operation(s) for checkouts.
+- [Titus Customers API](https://apis.io/apis/titus/titus-customers-api/) — The Customers API from Titus — 6 operation(s) for customers.
+- [Titus Listings API](https://apis.io/apis/titus/titus-listings-api/) — The Listings API from Titus — 1 operation(s) for listings.
+- [Titus Platform Payouts API](https://apis.io/apis/titus/titus-platformpayouts-api/) — The PlatformPayouts API from Titus — 4 operation(s) for platformpayouts.
+- [Titus Refunds API](https://apis.io/apis/titus/titus-refunds-api/) — The Refunds API from Titus — 1 operation(s) for refunds.
+- [Titus Titus API](https://apis.io/apis/titus/titus-titus-api-api/) — The Titus API API from Titus — 0 operation(s) for titus api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Titus Webhooks](https://apis.io/asyncapis/titus/titus-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Titus Agentic Access](https://apis.io/agentic-access/titus/titus-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Titus API Rules](https://apis.io/rules/titus/titus-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Titus Authentication](https://apis.io/security/titus/titus-authentication/)
+- [Titus Domain Security](https://apis.io/security/titus/titus-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Titus Plans Pricing](https://apis.io/plans/titus/titus-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.gotitus.com/)
+- [Documentation](https://docs.gotitus.com/)
+- [Getting started](https://www.gotitus.com/get-started)
+- [API reference](https://docs.gotitus.com/reference)
+- [Pricing](https://www.gotitus.com/pricing)
+- [Support](https://www.gotitus.com/support)
+- [Terms of service](https://www.gotitus.com/terms)
+- [Privacy policy](https://www.gotitus.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.4** — strong · rubric 0.24.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 49.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 73.2 |
+
+**Agent readiness 54.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/titus/](https://apis.io/providers/titus/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Titus: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/titus/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
